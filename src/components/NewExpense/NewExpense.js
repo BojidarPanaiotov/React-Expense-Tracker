@@ -3,7 +3,8 @@ import { useState } from "react";
 import "./NewExpense.css";
 
 const NewExpense = (props) => {
-  const [isEditing, setIsEditing] = useState();
+  console.log(123);
+  const [isEditing, setIsEditing] = useState(false);
 
   const saveExpenseDateHandler = (enteredExpenseData) => {
     const expenseData = {
